@@ -162,7 +162,7 @@ class LoginScreen(BaseWindow):
         Temporary login handler.
         """
 
-        username = self.username.get().strip()
+        username = self.username.get()
         password = self.password.get()
 
         print(username)
